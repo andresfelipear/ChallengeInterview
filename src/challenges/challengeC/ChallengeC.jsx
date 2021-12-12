@@ -6,7 +6,7 @@ const HigherOrderComponent = (Child, increment) => {
         const handleIncrement = () => {
             setValue(value + increment);
         }
-        return <Child value={value} incrementHandle={handleIncrement} />
+        return <Child value={value} incrementHandle={handleIncrement}/>
     }
     return HOC
 }
@@ -26,7 +26,7 @@ function ChallengeC() {
 
 export default ChallengeC
 
-const ComponentA = HigherOrderComponent(({value, incrementHandle}) => {
+const ComponentA = HigherOrderComponent(({value, incrementHandle, color}) => {
     return (
         <>
             <button onClick={incrementHandle}>Increment by 2</button>
