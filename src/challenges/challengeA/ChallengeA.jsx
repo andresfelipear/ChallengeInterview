@@ -1,9 +1,13 @@
-import React from 'react'
+import React, {useState} from 'react'
+
 
 const ChallengeA = () => {
+    const [list, setList] = useState([]);
+    const [inputText, setInputText] = useState("")
+
     return (
         <div>
-            test
+            
         </div>
     )
 }
