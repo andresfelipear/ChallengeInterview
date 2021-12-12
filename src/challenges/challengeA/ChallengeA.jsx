@@ -11,7 +11,7 @@ const ChallengeA = () => {
     }
 
     const handleSubmit = () => {
-        if (inputText != "") {
+        if (inputText !== "") {
             setList([...list, inputText])
             setInputText("")
         }
