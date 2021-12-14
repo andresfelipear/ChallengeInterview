@@ -64,12 +64,12 @@ It makes it possible to store a reference to a particular React element or compo
 ### What are the different phases of React component’s lifecycle?
 There are three different phases of React component’s lifecycle:
 
-> - ???
-> - ???
-> - ???
+> - Mounting (componentDidMount)
+> - Updating (componentDidUpdate)
+> - Unmounting (componentWillUnMount)
 
 ### What is the difference between a Container and a Component?
-> ???
+> a presentational component is usually a component that just display data (return), doesn't have any functionality more that render something in the UI (how things looks). Otherwise, a container component is a more complex component that have functionality (js, manage states, etc) and also render something in the UI (how things works)
 
 ---
 ---
